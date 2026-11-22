@@ -1,0 +1,146 @@
+PROJECT NAME:
+AI Interview Preparation Mentor
+
+ASSIGNMENT:
+Question 1 - Advanced AI Engineering Lab
+
+PROJECT OBJECTIVE:
+Develop a console-based Generative AI application
+that serves as a mentor for interview preparation.
+
+ORIGINAL LAB REQUIREMENT:
+Develop a console-based GenAI application that
+serves as your mentor for interview preparation.
+
+TECHNOLOGY STACK:
+1. Python 3.13
+2. LangChain
+3. Ollama
+4. Llama 3.2
+5. FAISS Vector Store
+
+APPLICATION DESCRIPTION:
+The application should work as an AI-powered
+interview preparation mentor.
+
+The user should be able to enter interview-related
+questions through the terminal.
+
+The application should send the user question to
+the LLM using LangChain and Ollama.
+
+The selected Llama 3.2 model should generate a
+response, which should be displayed in the console.
+
+TECHNICAL EXPECTATIONS:
+
+1. Use Python as the primary programming language.
+
+2. Use LangChain to connect and coordinate the
+   interaction with the language model.
+
+3. Use Ollama to run the Llama 3.2 model locally.
+
+4. Use FAISS as the vector store for similarity
+   search over an appropriate interview knowledge base.
+
+5. Use suitable embeddings to convert text into
+   numerical vector representations.
+
+6. Keep the application console-based.
+
+7. Make the code modular, readable and reusable.
+
+CODING GUIDELINES:
+
+1. Use beginner-friendly Python code.
+
+2. Follow good coding practices.
+
+3. Use meaningful variable and function names.
+
+4. Add comments wherever necessary.
+
+5. Handle errors appropriately.
+
+6. Avoid unnecessary complexity.
+
+7. Do not hardcode API keys or passwords.
+
+8. Do not use paid external LLM APIs.
+
+9. Do not add Streamlit to Question 1.
+   Streamlit belongs to Question 2.
+
+10. Do not invent an external knowledge dataset.
+    Explain and agree on the knowledge source
+    before implementing the FAISS retrieval system.
+
+CODE EXPLANATION REQUIREMENTS:
+
+Explain every important line of code.
+
+For every import, explain:
+- What is being imported?
+- From which library?
+- Why is it required?
+
+For every function, explain:
+- Why are we creating it?
+- What are its parameters?
+- What does it return?
+
+Explain Python keywords, classes, objects,
+methods, decorators and exceptions whenever used.
+
+Explain the complete execution workflow.
+
+PROJECT DEVELOPMENT RULE:
+
+Develop the project step by step.
+
+Do not generate the entire application in one response.
+
+First inspect the existing project files.
+
+Before modifying files, explain the changes.
+
+After every development milestone:
+1. Run the code.
+2. Test the output.
+3. Explain errors.
+4. Fix errors.
+5. Verify the functionality.
+
+LEARNING OBJECTIVE:
+
+The developer is a beginner in AI Engineering.
+
+The goal is not only to complete the application
+but also to understand every important concept
+and become capable of explaining the project
+during technical interviews.
+
+GITHUB REQUIREMENTS:
+
+Prepare the project for GitHub.
+
+Include:
+- README.md
+- requirements.txt
+- Python source files
+- .gitignore
+- Screenshots where useful
+
+Never upload:
+- .venv/
+- API keys
+- Passwords
+- Private credentials
+- Confidential data
+
+EXPECTED FINAL RESULT:
+
+A working console-based AI Interview Preparation
+Mentor using Python, LangChain, Ollama,
+Llama 3.2 and FAISS Vector Store.

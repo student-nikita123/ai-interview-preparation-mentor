@@ -1,0 +1,14 @@
+# Core LangChain framework
+langchain
+
+# LangChain integration for Ollama
+langchain-ollama
+
+# LangChain FAISS vector store integration
+langchain-community
+
+# CPU-based FAISS vector search library
+faiss-cpu
+
+# Streamlit web interface
+streamlit
